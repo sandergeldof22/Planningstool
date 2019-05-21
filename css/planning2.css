@@ -1,0 +1,57 @@
+body{
+	background-color: grey;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+div{
+	background-color: white;
+}
+
+#titel{
+	text-align: center;
+}
+
+#navbar{
+	list-style-type: none;
+	margin: 0;
+	margin-left: 300px;  
+	padding: 0;
+	overflow: hidden;
+}
+
+#navbar li{
+	float: left;
+}
+
+a:link {
+  text-decoration: none;
+  color: green;
+}
+
+#navbar li a{
+	display: inline;
+	text-align: center;
+	padding: 20px 26px;
+	text-decoration: 0;
+	font-size: 24px;
+}
+
+.planningstitel{
+	text-align: center;
+}
+
+form{
+	text-align: left;
+	padding: 20px;
+}
+
+.form-group1, .form-group2, .form-group3, .form-group4{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.form-control-speler{
+	margin: 5px;
+	background-color: red;
+}

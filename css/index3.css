@@ -1,0 +1,70 @@
+body{
+	background-color: white;
+	width: 1600px;
+}
+
+#titel{
+	text-align: center;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+tr, th, td {
+  	padding: 5px;
+}
+
+th{
+	background-color: green;
+}
+
+#navbar{
+	list-style-type: none;
+	margin: 0;
+	margin-left: 550px;  
+	padding: 0;
+	overflow: hidden;
+}
+
+#navbar li{
+	float: left;
+}
+
+a:link {
+  text-decoration: none;
+  color: green;
+}
+
+#navbar li a{
+	display: inline;
+	text-align: center;
+	padding: 20px 26px;
+	text-decoration: 0;
+	font-size: 24px;
+}
+
+img{
+	height: 160px;
+	width: 100px;
+}
+
+.name{
+	width: 100px;
+}
+
+.description{
+	width: 250px;
+}
+
+.expansions{
+	width: 125px;
+}
+
+.skills{
+	width: 100px;
+}
+
+.changes{
+	position: center;
+}

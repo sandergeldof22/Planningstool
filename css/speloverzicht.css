@@ -1,0 +1,50 @@
+body{
+	background-color: grey;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+div{
+	background-color: white;
+}
+
+#titel{
+	text-align: center;
+}
+
+#navbar{
+	list-style-type: none;
+	margin: 0;
+	margin-left: 300px;  
+	padding: 0;
+	overflow: hidden;
+}
+
+#navbar li{
+	float: left;
+}
+
+a:link {
+  text-decoration: none;
+  color: green;
+}
+
+#navbar li a{
+	display: inline;
+	text-align: center;
+	padding: 20px 26px;
+	text-decoration: 0;
+	font-size: 24px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+tr, th, td {
+  	padding: 5px;
+}
+
+th{
+	background-color: green;
+}
